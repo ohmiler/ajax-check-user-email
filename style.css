@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#register_form h1 {
+  text-align: center;
+}
+
+#register_form {
+  text-align: center;
+  width: 37%;
+  margin: 100px auto;
+  padding: 2rem 0;
+  border-radius: 1rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+  background: white;
+}
+
+#register_form input {
+  width: 80%;
+  height: 32px;
+  margin: 5px 10px;
+  font-size: 1.1rem;
+  padding: 4px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+#reg_btn {
+  height: 35px;
+  width: 80%;
+  margin: 1rem 10%;
+  color: white;
+  background: #3b5998;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form_error span {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1rem;
+  color: #d83d5a;
+}
+
+.form_error input {
+  border: 1px solid #d83d5a;
+}
+
+.form_success span {
+  width: 80%;
+  height: 35px;
+  margin: 3px 10%;
+  font-size: 1.1rem;
+  color: green;
+}
+
+.form_success input {
+  border: 1px solid green;
+}
+
+#error_msg {
+  color: red;
+  text-align: center;
+  margin: 10px auto;
+}
